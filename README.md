@@ -1,7 +1,7 @@
 # ALFA
-### LINK FIGMA 
-# https://www.figma.com/file/bMivBEnbVIfwgOQNJcgxaA/ALFA?node-id=0%3A1
-This repository contains mobile application code with the aim of fulfilling college project assessments.
+#### LINK FIGMA 
+#### https://www.figma.com/file/bMivBEnbVIfwgOQNJcgxaA/ALFA?node-id=0%3A1
+
 Members:
 
 191402093 Arief Lindung
