@@ -6,4 +6,18 @@
     <string name="sign_in">SIGN IN</string>
     <string name="don_t_have_an_account_sign_up">Don’t have an account? Sign Up.</string>
     <string name="forgot_password">Forgot Password?</string>
+    <string name="search">Search . . .</string>
+    <string name="katrine_anna_nactive_yesterday">Katherin Anna \n Active yesterday</string>
+    <string name="sehun_nactive_yesterday">Sehun \n Active yesterday</string>
+    <string name="katherin">Katherin Anna</string>
+    <string name="nama">Sri Wahyuni</string>
+    <string name="status">Active Yesterday</string>
+    <string name="pengajuan_alumni">Pengajuan Alumni</string>
+    <string name="this_week">This Week</string>
+    <string name="nanda_amelia_nyou_have_registered">Nanda Amelia \nYou Have Registered</string>
+    <string name="sri_wahyuni_nyou_have_registered">Sri Wahyuni,\nYou Have Registered</string>
+    <string name="katrine_anna_nyou_have_registered">Katherine Anna,\nYou Have Registered</string>
+    <string name="meizar_fachriza_nyou_have_registered">Meizar Fachriza,\nYou Have Registered</string>
+    <string name="afief_lindung_nyou_have_registered">Afief Lindung,\nYou Have Registered</string>
+    <string name="jaehyun_sudarjeong_nyou_have_registered">Jaehyun Sudarjeong,\nYou Have Registered</string>
 </resources>

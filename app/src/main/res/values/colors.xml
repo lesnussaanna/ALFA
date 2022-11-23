@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="green_dark">#266041</color>
     <color name="green_solid">#D4DFD9</color>
+    <color name="bg_secondary">#F4F4F4</color>
+
 </resources>
