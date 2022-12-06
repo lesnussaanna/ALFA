@@ -4,8 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="@color/bg_secondary"
     tools:context=".alumni.ui.ChatAlumni">
+=======
+    tools:context=".admin.ChatAlumniActivity">
+>>>>>>> e9c9e1a (alumni : home alumni menu)
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -19,7 +23,11 @@
         android:background="#266041">
 
         <ImageView
+<<<<<<< HEAD
             android:id="@+id/btn_back"
+=======
+            android:id="@+id/btnBuatPengumuman"
+>>>>>>> e9c9e1a (alumni : home alumni menu)
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
@@ -39,6 +47,7 @@
             tools:layout_editor_absoluteX="69dp"
             tools:layout_editor_absoluteY="20dp" />
 
+<<<<<<< HEAD
     </androidx.appcompat.widget.Toolbar>
 
     <androidx.cardview.widget.CardView
@@ -79,4 +88,109 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cardView"
         tools:listitem="@layout/chat_box" />
+=======
+</androidx.appcompat.widget.Toolbar>
+
+<androidx.cardview.widget.CardView
+android:id="@+id/cardView"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginStart="30dp"
+android:layout_marginTop="30dp"
+android:layout_marginEnd="30dp"
+app:cardBackgroundColor="@color/white"
+app:cardCornerRadius="10dp"
+app:cardElevation="10dp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="15dp"
+    android:drawableLeft="@drawable/ic_baseline_search_24"
+    android:drawablePadding="10dp"
+    android:hint="Search . . ."
+    android:layout_marginBottom="15dp"
+    android:textColor="@color/black"
+    android:textSize="16sp" />
+
+
+
+</androidx.cardview.widget.CardView>
+z
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/kathrine"
+        android:drawablePadding="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Katrine Anna,\nActive yesterday"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/sehun"
+        android:drawablePadding="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Sehuna,\nYou Have Registered"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/nanda"
+        android:drawablePadding="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Nanda Amelia,\nApa iya harus kek gitu? emang gak . . "
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/jaehyun"
+        android:drawablePadding="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Jaehyun Sudarjeong,\nAda event yang bagus lo, wajib . . "
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/usu"
+        android:drawablePadding="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Universitas Sumatera Utara,\nDear Sri Wahyuni, we have gre . . "
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="499dp" />
+>>>>>>> e9c9e1a (alumni : home alumni menu)
 </androidx.constraintlayout.widget.ConstraintLayout>
