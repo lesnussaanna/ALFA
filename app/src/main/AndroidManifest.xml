@@ -14,35 +14,17 @@
         android:theme="@style/Theme.ALFA"
         tools:targetApi="31">
         <activity
-<<<<<<< HEAD
-            android:name=".PengajuanAlumni"
-            android:exported="false" />
-        <activity
-            android:name=".ChatAlumni"
-            android:exported="false" />
-        <activity
-            android:name=".SplashScreen"
-            android:exported="true"
-            android:theme="@style/Theme.SplashScreen">
-=======
             android:name=".admin.AdminActivity"
             android:exported="false" />
         <activity
             android:name=".admin.MainActivity"
             android:exported="true">
->>>>>>> f648492 (admin : layout notifikasi dan search admin)
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
-=======
->>>>>>> f648492 (admin : layout notifikasi dan search admin)
 
         <meta-data
             android:name="preloaded_fonts"
