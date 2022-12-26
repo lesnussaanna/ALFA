@@ -1,12 +1,12 @@
-package com.lab.alfa.admin
+package com.lab.alfa.alumni.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.lab.alfa.R
 
-class PengajuanAlumniActivity : AppCompatActivity() {
+class TambahAdminActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pengajuan_alumni)
+        setContentView(R.layout.activity_tambah_admin)
     }
 }

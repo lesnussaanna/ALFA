@@ -4,9 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.lab.alfa.R
 
-class PengajuanAlumniActivity : AppCompatActivity() {
+class ProfilAdminActifity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pengajuan_alumni)
+        setContentView(R.layout.activity_profil_admin_actifity)
     }
 }

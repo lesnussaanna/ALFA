@@ -35,7 +35,7 @@
             android:layout_gravity="left"
             android:layout_margin="20dp"
             android:fontFamily="@font/poppins_semibold"
-            android:text="@string/pengajuan_alumni"
+            android:text="pengajuan alumni"
             android:textColor="#FFFFFF"
             android:textSize="25sp"
             tools:layout_editor_absoluteX="59dp"
@@ -47,9 +47,9 @@
         android:id="@+id/Today"
         android:layout_width="144dp"
         android:layout_height="35dp"
-        android:layout_marginStart="28dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
-        android:text="@string/this_week"
+        android:text="This Week"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -58,7 +58,7 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginTop="150dp"
@@ -83,7 +83,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="15dp"
                 android:drawablePadding="10dp"
-                android:text="@string/nanda_amelia_nyou_have_registered"
+                android:text="nanda amelia\nyou have registered"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 app:drawableLeftCompat="@drawable/nanda" />
@@ -94,7 +94,7 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="15dp"
-                android:text="@string/sri_wahyuni_nyou_have_registered"
+                android:text="sri wahyuni\nyou have registered"
                 android:drawablePadding="10dp"
                 android:textColor="@color/black"
                 android:textSize="16sp"
@@ -107,7 +107,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="20dp"
                 android:drawablePadding="10dp"
-                android:text="@string/katrine_anna_nyou_have_registered"
+                android:text="katrine anna\nyou have registered"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 app:drawableLeftCompat="@drawable/katherin" />
@@ -130,14 +130,14 @@
         android:id="@+id/yesterday"
         android:layout_width="122dp"
         android:layout_height="32dp"
-        android:layout_marginEnd="256dp"
-        android:layout_marginBottom="292dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
         android:text="This Month"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView2"
@@ -167,7 +167,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="15dp"
                 android:drawablePadding="10dp"
-                android:text="@string/meizar_fachriza_nyou_have_registered"
+                android:text="meizar fachriza\nyou have registered"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 app:drawableLeftCompat="@drawable/meizar" />
@@ -178,9 +178,9 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="15dp"
-                android:drawableLeft="@drawable/arief"
+                android:drawableLeft="@drawable/arif"
                 android:drawablePadding="10dp"
-                android:text="@string/afief_lindung_nyou_have_registered"
+                android:text="afief lindung\nyou have registered"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
@@ -191,7 +191,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="15dp"
                 android:drawablePadding="10dp"
-                android:text="@string/jaehyun_sudarjeong_nyou_have_registered"
+                android:text="jaehyun sudarjeong \nyou have registered"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 app:drawableLeftCompat="@drawable/jaehyun" />
@@ -209,4 +209,6 @@
 
 
     </androidx.cardview.widget.CardView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

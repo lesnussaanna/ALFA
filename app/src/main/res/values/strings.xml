@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">ALFA</string>
-<<<<<<< HEAD
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="email_or_nim">Email or NIM</string>
     <string name="password">Password</string>
@@ -21,6 +20,6 @@
     <string name="meizar_fachriza_nyou_have_registered">Meizar Fachriza,\nYou Have Registered</string>
     <string name="afief_lindung_nyou_have_registered">Afief Lindung,\nYou Have Registered</string>
     <string name="jaehyun_sudarjeong_nyou_have_registered">Jaehyun Sudarjeong,\nYou Have Registered</string>
-=======
->>>>>>> f648492 (admin : layout notifikasi dan search admin)
+    =======
+    >>>>>>> f648492 (admin : layout notifikasi dan search admin)
 </resources>
