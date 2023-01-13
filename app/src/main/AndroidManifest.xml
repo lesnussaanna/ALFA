@@ -14,6 +14,9 @@
         android:theme="@style/Theme.AppAlfa"
         tools:targetApi="31">
         <activity
+            android:name=".EditProfil"
+            android:exported="false" />
+        <activity
             android:name=".alumni.DetailAlumni"
             android:exported="false" />
         <activity

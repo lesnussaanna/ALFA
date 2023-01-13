@@ -21,6 +21,7 @@
 
         <ImageView
             android:id="@+id/btnBack"
+            android:contentDescription="@string/logo_alfa"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -35,7 +36,7 @@
                 android:id="@+id/alfa"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ALFA"
+                android:text="@string/alfa"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 android:fontFamily="@font/poppins_bold"/>
@@ -43,7 +44,7 @@
                 android:id="@+id/singkatan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Alumni Fasilkom- TI"
+                android:text="@string/alumni_fasilkom_ti"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:fontFamily="@font/poppins"/>
@@ -71,9 +72,11 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginTop="10dp"
+            android:autofillHints="teknologi informasi"
+            android:inputType="text"
             android:layout_marginEnd="15dp"
             android:layout_marginBottom="10dp"
-            android:drawableLeft="@drawable/ic_search"
+            android:drawableStart="@drawable/ic_search"
             android:drawablePadding="10dp"
             android:fontFamily="@font/poppins"
             android:hint="@string/search"
@@ -128,7 +131,7 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/listAlumni"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:paddingBottom="10dp"
             android:layout_marginTop="8dp"

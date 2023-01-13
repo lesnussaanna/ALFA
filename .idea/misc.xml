@@ -24,6 +24,7 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/activity_ambil_kamera.xml" value="0.136" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/activity_auth.xml" value="0.2" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/activity_detail_alumni.xml" value="0.136" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/activity_edit_profil.xml" value="0.264" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/activity_gambar_terkirim.xml" value="0.152" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/activity_main_admin.xml" value="0.136" />
@@ -35,6 +36,8 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/fragment_ambil_gambar.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/fragment_berhasil_kirim.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/fragment_chat_alumni.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/fragment_detail_acara.xml" value="0.152" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/fragment_detail_chat.xml" value="0.1515625" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/fragment_event_alumni.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/fragment_forgot_password.xml" value="0.264" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/fragment_forgot_password2.xml" value="0.25416666666666665" />
@@ -44,7 +47,7 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/fragment_kuisoner_selesai.xml" value="0.13854166666666667" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/fragment_kuisoner_wajib.xml" value="0.2" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/fragment_notification_alumni.xml" value="0.176" />
-        <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/fragment_search_alumni.xml" value="0.176" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/fragment_search_alumni.xml" value="0.152" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/fragment_sent_link.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/fragment_sign_in.xml" value="0.264" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/AppAlfa/app/src/main/res/layout/fragment_sign_up.xml" value="0.264" />

@@ -100,6 +100,40 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="chat">Chat</string>
+    <string name="detail_acara">Detail Acara</string>
+    <string name="nama_event">Fasilkom Alumni Meet and Reunion Celebrations</string>
+    <string name="tv_lokasi">Lokasi :</string>
+    <string name="lokasi">Gedung C Fasilkom-TI, Universitas Sumatera Utara, \n Jl. Alumni No.3, Padang Bulan, Kec. Medan Baru, \n Kota Medan, Sumatera Utara 20155</string>
+    <string name="tv_tanggal">Tanggal</string>
+    <string name="tanggalevent">Sabtu, 1 Oktober 2022</string>
+    <string name="deskripsi_acara"><![CDATA[Dear Alumni, \n \n We have a great pleasure to inform & invite you for Alumni Meet and Reunion being celebrated on 1st october 2022. It’s a great opportunity to interact with your batch-mates and relish & refresh your past memories.]]></string>
+    <string name="simpan">Simpan</string>
+    <string name="tv_negara">Negara :</string>
+    <string name="tv_kota">Kota :</string>
+    <string name="et_kota">Medan</string>
+    <string name="et_negara">Indonesia</string>
+    <string name="tv_sosmed">Sosial Media</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="et_wa">083623672468</string>
+    <string name="et_email">sriwahyuni@gmail.com</string>
+    <string name="ganti_foto_profil">Ganti Foto Profil</string>
+    <string name="alfa">ALFA</string>
+    <string name="alumni_fasilkom_ti">Alumni Fasilkom- TI</string>
+    <string name="instagram">Instagram</string>
+    <string name="sriwahyuni">sriwahyuni</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="peran_profesi">Peran</string>
+    <string name="admin">Admin</string>
+    <string name="kantor">Kantor</string>
+    <string name="tanggal_masuk">Tanggal Masuk</string>
+    <string name="tanggal_kerja">13-12-2020</string>
+    <string name="fakultas">Fakultas</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="tingkatan">Tingkatan</string>
+    <string name="s1">S1</string>
+    <string name="tahun_angkatan">2019</string>
+    <string name="tahun_angkata">Tahun Angkatan</string>
+    <string name="edit_profil">Edit Profil</string>
 
 
 </resources>
