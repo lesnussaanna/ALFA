@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_01"
+    tools:context=".alumni.tracerstudy.KuisonerWajib">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#266041"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_margin="12dp"
+            app:srcCompat="@drawable/logo_alfa" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginHorizontal="30dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/toolbar"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/salam1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="TRACER STUDY"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/pertanyaan1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="1. Jelaskan Status Anda Saat ini"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <RadioGroup
+                    android:id="@+id/jawaban1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="20dp">
+
+                    <RadioButton
+                        android:id="@+id/rb1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Bekerja (full time/part time)"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Belum memungkinkan bekerja"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Wiraswasta"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Melanjutkan Pendidikan"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Tidak Kerja tetapi sedang mencari pekerjaan"
+                        android:textSize="13sp" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/pertanyaan2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="2. Apakah anda telah mendapatkan pekerjaan kurang atau 6 bulan/ termasuk bekerja sebelum lulus?"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <RadioGroup
+                    android:id="@+id/jawaban2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="20dp">
+
+                    <RadioButton
+                        android:id="@+id/rb2_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Ya, dalam beberapa bulan saya mendapatkan pekerjaan"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb2_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Tidak, dalam beberapa bulan saya tidak mendapatkan pekerjaan"
+                        android:textSize="13sp" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/pertanyaan3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="3. Berapa rata-rata pendapatan anda per bulan? (take home pay)?"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <RadioGroup
+                    android:id="@+id/jawaban3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="20dp">
+
+                    <RadioButton
+                        android:id="@+id/rb3_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="kurang dari Rp.  2.000.000"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb3_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Rp. 2.000.000 - Rp. 4.000.000"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb3_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Rp. 4.000.000 - Rp. 6.000.000"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb3_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Rp. 6.000.000 - Rp. 8.000.000"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb3_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="lebih dari Rp 8.000.000"
+                        android:textSize="13sp" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/pertanyaan4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="4. Dimana Lokasi tempat Anda Bekerja?"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:hint="Provinsi, Kabupaten/Kota"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/lokasi"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/pertanyaan5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="5. Apa jenis perusahaan/instansi/institusi tempat anda bekerja sekarang?"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <RadioGroup
+                    android:id="@+id/jawaban5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="20dp">
+
+                    <RadioButton
+                        android:id="@+id/rb5_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Instansi pemerintah"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb5_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="BUMN/BUMD"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb5_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Institusi/Organisasi Multilateral"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb5_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Organisasi non-profit/Lembaga Swadya Masyarakat"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb5_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Perusahaan Swasta"
+                        android:textSize="13sp" />
+                    <RadioButton
+                        android:id="@+id/rb5_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Wiraswasta/ perusahaan Sendiri"
+                        android:textSize="13sp" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/pertanyaan6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="6. Apa nama perushaan/kantor Anda Bekerja?"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/jawaban6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:hint="Nama Perusahaan"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/ti_jawaban6"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/pertanyaan7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="7. Apa posisi/jabatan anda saat ini?"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/jawaban7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:hint="Posisi dan Jabatan, cth : Admin"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/ti_jawaban7"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/next_tr"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/button_green"
+                    android:fontFamily="@font/poppins_bold"
+                    android:hint="@string/selanjutnya"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="parent" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

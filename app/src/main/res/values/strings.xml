@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Alfa</string>
+
+    <!-- input text -->
+    <string name="email">Email</string>
+    <string name="nim">NIM</string>
+    <string name="password">Password</string>
+    <string name="email_or_nim">Email or NIM</string>
+    <string name="search">Search . . .</string>
+
+    <!-- text -->
+    <string name="selanjutnya">Selanjutnya</string>
+    <string name="daftar">Daftar</string>
+    <string name="event">Event</string>
+    <string name="alumni">Alumni</string>
+    <string name="sesi_alumni">Sesi Alumni</string>
+    <string name="text_daftar1">Masukan alamat email dan NIM anda untuk mendaftarkan akun anda. Kami akan mengirimkan kode verifikasi untuk akun anda.</string>
+    <string name="sudah_punya_akun_masuk">Sudah Punya Akun? Masuk</string>
+    <string name="konfirmasi_email_anda">Konfirmasi Email Anda</string>
+    <string name="masukan_kode_konfirmasi_yang_telah_dikirimkan_pada_akun">Masukan kode konfirmasi yang telah dikirimkan pada akun</string>
+    <string name="kode_konfimasi">Kode konfimasi</string>
+    <string name="halo">Halo, SriWahyuni</string>
+    <string name="haloadmin">Halo, Admin</string>
+    <string name="katherinprofile">Profil Katherin Anna</string>
+    <string name="status">Online</string>
+    <string name="ambil_gambar">Ambil Gambar Wajah</string>
+    <string name="info_ambilgambar">Pastikan wajah anda tidak blur dan tertangkap kamera untuk pemeriksaan keamanan</string>
+    <string name="data_dikirim">Data Dikirim</string>
+    <string name="profile_saya">Profile Saya</string>
+    <string name="nama_akun">Sri Wahyuni</string>
+    <string name="nama_profil">Katherin Anna P Lesnussa</string>
+    <string name="prodiakun">S1 - Teknologi Informasi</string>
+    <string name="nim_akun">191402078</string>
+    <string name="follow">Follow</string>
+    <string name="job_akun">Administrasion at BNI</string>
+    <string name="job_profil">Web Design at Telkom</string>
+    <string name="info_datadikirim1">Pengambilan gambar digunakan untuk memastikan pengguna akun.</string>
+    <string name="info_datakirim2">Akun akan diperiksa secara manual. Tunggu dalam waktu 24 jam, kami akan mengirim pesan melalui email anda.</string>
+    <string name="domisili">Domisili</string>
+    <string name="negara">Negara : Indonesia</string>
+    <string name="kota">Kota : Medan</string>
+    <string name="detail">Detail Profesi</string>
+    <string name="pengalaman">Pengalaman : 2 Tahun</string>
+    <string name="peran">Peran : Admin</string>
+    <string name="industri">Industri : Informasi dan Komunikasi</string>
+    <string name="office">BNI</string>
+    <string name="role">Administration</string>
+    <string name="tanggal">Januari 2021 sampai sekarang</string>
+    <string name="riwayat">Riwayat Pendidikan</string>
+    <string name="nama_institusi">Universitas Sumatera Utara</string>
+    <string name="prodi">SI - Teknologi Informasi</string>
+    <string name="tahun">2019</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="success">Berhasil!</string>
+    <string name="info_berhasil">Kami telah mengirimkan link melalui email anda. Silahkan periksa spam atau pesan masuk.</string>
+    <string name="lupa_password_anda">Lupa password anda?</string>
+    <string name="tv_singin">Tidak punya akun? Buat Akun.</string>
+    <string name="email_pendaftar">happyaja@gmail.com</string>
+    <string name="kirim_ulang">Didn\'t receive code? resend Again</string>
+    <string name="tracer_study">TRACER STUDY</string>
+    <string name="halo_sobat_alfa">Halo Sobat Alfa</string>
+    <string name="info_trs">Anda telah menjalani perjalan 2 tahun lebih setelah perkuliahan anda di Fakultas Ilmu Komputer dan Teknologi Informasi. Kami ingin mengetahui pengalaman anda setelah kelulusan anda di Fakultas kita. Melalui survei ini kami mengharapkan informasi yang berkaitaan dengan perjalanan kelulusan anda.</string>
+    <string name="info_ts">Survei ini bertujuan untuk pelacakan jejak lulusan/alumni yang dijadikan sebagai dasar acuan pemikiran dan pengambilan kebijakan untuk pengembangan pendidikan di Fakultas Ilmu Komputer dan Teknologi Informasi sebagai langkah antipasi dan adaptasi terhadap pengembangan dunia kerja dan dunia bisnis pada masa mendatang.</string>
+    <string name="lihat_profile">Lihat Profile</string>
+
+
+    <!-- button -->
+    <string name="teknologi_ninformasi">Teknologi\nInformasi</string>
+    <string name="ilmu_nkomputer">Ilmu\nKomputer</string>
+    <string name="btn_selesai">Selesai</string>
+    <string name="btn_edit">Edit Profile</string>
+    <string name="btn_masuk">MASUK</string>
+
+    <string name="btn_kembali">KEMBALI</string>
+    <string name="btn_kamera">Ambil Gambar</string>
+
+    <!-- icon -->
+    <string name="logo_alfa">logo alfa</string>
+    <string name="img_akun">img akun</string>
+    <string name="ic_chat">icon chat</string>
+    <string name="ic_notif">icon notif</string>
+    <string name="img_newpost">img new post</string>
+    <string name="img_email">img email</string>
+    <string name="img_whatsapp">img whatsapp</string>
+    <string name="img_instagram">img instagram</string>
+    <string name="img_linkedin">img linkedin</string>
+    <string name="ic_back">ic_back</string>
+    <string name="ic_like">ic_like</string>
+    <string name="ic_cmnt">ic_coment</string>
+    <string name="img_acara">img acara</string>
+    <string name="judul_event">Guest Lecture “Machine Learning”</string>
+    <string name="info_event">Let’s find out what trends in machine learning, learn, get the inspiration, and make an innovation!</string>
+    <string name="beranda">Beranda</string>
+    <string name="tambah_event">Tambah Event</string>
+    <string name="akun">Akun</string>
+    <string name="pencarian">Pencarian</string>
+    <string name="acara">Acara</string>
+    <string name="notifikasi">Notifikasi</string>
+    <string name="akun_saya">Akun Saya</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chat">Chat</string>
+
+
+</resources>

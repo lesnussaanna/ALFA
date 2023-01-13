@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".alumni.tracerstudy.KuisonerPendidikan">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#266041"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_margin="12dp"
+            app:srcCompat="@drawable/logo_alfa" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="50dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/toolbar"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/salam1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="TRACER STUDY"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/pemberitahuan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Silahkan isi (-) apabila anda tidak melakukan studi lanjut"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/pertanyaan8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="8. Jelaskan Pendidikan Anda Saat ini"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/jawaban8_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:hint="Nama Perguruan Tinggi"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/ti_jawaban8_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/jawaban8_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:hint="Program Studi"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/ti_jawaban8_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/jawaban8_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:hint="Tanggal Masuk Perkuliahan"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/ti_jawaban8_3"
+                        android:layout_width="match_parent"
+                        android:inputType="date|datetime"
+                        android:layout_height="30dp"
+                        android:background="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                <TextView
+                    android:id="@+id/pertanyaan9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="9. Pilih Sumberdana dalam pembiayaan kuliah?(Bukan ketika studi lanjut)"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <RadioGroup
+                    android:id="@+id/jawaban9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="20dp">
+
+                    <RadioButton
+                        android:id="@+id/rb9_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Biaya sendiri/ keluarga"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb9_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Beasiswa ADIK"
+                        android:textSize="13sp" />
+                    <RadioButton
+                        android:id="@+id/rb9_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Beasiswa BIDIKMISI"
+                        android:textSize="13sp" />
+                    <RadioButton
+                        android:id="@+id/rb9_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Beasiswa PPA"
+                        android:textSize="13sp" />
+                    <RadioButton
+                        android:id="@+id/rb9_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Beasiswa AFIRMASI"
+                        android:textSize="13sp" />
+                    <RadioButton
+                        android:id="@+id/rb9_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Beasiswa Perusahaan/Swasta"
+                        android:textSize="13sp" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/pertanyaan10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="10.  Seberapa erat hubungan antara bidang studi dengan pekerjaan anda?"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <RadioGroup
+                    android:id="@+id/jawaban10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="20dp">
+
+                    <RadioButton
+                        android:id="@+id/rb10_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Sangat erat"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb10_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Erat"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb10_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Cukup Erat"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb10_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Kurang Erat"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb10_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Tidak sama sekali"
+                        android:textSize="13sp" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/pertanyaan11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="11. Tingkat Pendidikan apa yang paling tepat/sesuai untuk pekerjaan anda saat ini?"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <RadioGroup
+                    android:id="@+id/jawaban11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="20dp">
+
+                    <RadioButton
+                        android:id="@+id/rb11_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Setingkat Lebih Tinggi"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb11_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Tingkat yang sama"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb11_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Setingkat lebih rendah"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb11_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Tidak perlu pendidikan tinggi"
+                        android:textSize="13sp" />
+                </RadioGroup>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/next_tr"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/button_green"
+                    android:fontFamily="@font/poppins_bold"
+                    android:hint="Kirim"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="parent" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

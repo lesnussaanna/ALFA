@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_tracerstudy"
+    app:startDestination="@id/tracerStudy">
+
+    <fragment
+        android:id="@+id/tracerStudy"
+        android:name="com.pm.appalfa.alumni.tracerstudy.TracerStudy"
+        android:label="fragment_tracer_study"
+        tools:layout="@layout/fragment_tracer_study" >
+        <action
+            android:id="@+id/action_tracerStudy_to_kuisonerWajib"
+            app:destination="@id/kuisonerWajib" />
+    </fragment>
+    <fragment
+        android:id="@+id/kuisonerPendidikan"
+        android:name="com.pm.appalfa.alumni.tracerstudy.KuisonerPendidikan"
+        android:label="fragment_kuisoner_pendidikan"
+        tools:layout="@layout/fragment_kuisoner_pendidikan" >
+        <action
+            android:id="@+id/action_kuisonerPendidikan_to_kuisonerSelesai"
+            app:destination="@id/kuisonerSelesai" />
+    </fragment>
+    <fragment
+        android:id="@+id/kuisonerWajib"
+        android:name="com.pm.appalfa.alumni.tracerstudy.KuisonerWajib"
+        android:label="fragment_kuisoner_wajib"
+        tools:layout="@layout/fragment_kuisoner_wajib" >
+        <action
+            android:id="@+id/action_kuisonerWajib_to_kuisonerPendidikan"
+            app:destination="@id/kuisonerPendidikan" />
+    </fragment>
+    <fragment
+        android:id="@+id/kuisonerSelesai"
+        android:name="com.pm.appalfa.alumni.tracerstudy.KuisonerSelesai"
+        android:label="fragment_kuisoner_selesai"
+        tools:layout="@layout/fragment_kuisoner_selesai" >
+        <action
+            android:id="@+id/action_kuisonerSelesai_to_mainActivityAlumni2"
+            app:destination="@id/mainActivityAlumni2" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivityAlumni2"
+        android:name="com.pm.appalfa.alumni.MainActivityAlumni"
+        android:label="activity_main_alumni"
+        tools:layout="@layout/activity_main_alumni" />
+</navigation>

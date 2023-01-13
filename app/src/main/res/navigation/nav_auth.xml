@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_auth"
+    app:startDestination="@id/signIn">
+    <fragment
+        android:id="@+id/signIn"
+        android:name="com.pm.appalfa.signin_up.signin.SignIn"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signIn_to_signUp"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_signIn_to_forgotPassword"
+            app:destination="@id/forgotPassword" />
+        <action
+            android:id="@+id/action_signIn_to_mainActivityAdmin"
+            app:destination="@id/mainActivityAdmin" />
+        <action
+            android:id="@+id/action_signIn_to_mainActivityAlumni"
+            app:destination="@id/mainActivityAlumni" />
+        <action
+            android:id="@+id/action_signIn_to_tracerStudyActivty"
+            app:destination="@id/tracerStudyActivty" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.pm.appalfa.signin_up.signup.SignUp"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUp_to_signUp2"
+            app:destination="@id/signUp2" />
+        <action
+            android:id="@+id/action_signUp_to_signIn"
+            app:destination="@id/signIn" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp2"
+        android:name="com.pm.appalfa.signin_up.signup.SignUp2"
+        android:label="fragment_sign_up2"
+        tools:layout="@layout/fragment_sign_up2" >
+        <action
+            android:id="@+id/action_signUp2_to_signUp"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_signUp2_to_ambilKamera"
+            app:destination="@id/ambilKamera" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPassword"
+        android:name="com.pm.appalfa.signin_up.forgotpass.ForgotPassword"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password" >
+        <action
+            android:id="@+id/action_forgotPassword_to_forgotPassword2"
+            app:destination="@id/forgotPassword2" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPassword2"
+        android:name="com.pm.appalfa.signin_up.forgotpass.ForgotPassword2"
+        android:label="fragment_forgot_password2"
+        tools:layout="@layout/fragment_forgot_password2" >
+        <action
+            android:id="@+id/action_forgotPassword2_to_forgotPassword"
+            app:destination="@id/forgotPassword" />
+        <action
+            android:id="@+id/action_forgotPassword2_to_sentLink"
+            app:destination="@id/sentLink" />
+    </fragment>
+    <fragment
+        android:id="@+id/sentLink"
+        android:name="com.pm.appalfa.signin_up.forgotpass.SentLink"
+        android:label="fragment_sent_link"
+        tools:layout="@layout/fragment_sent_link" >
+        <action
+            android:id="@+id/action_sentLink_to_signIn"
+            app:destination="@id/signIn" />
+    </fragment>
+    <activity
+        android:id="@+id/ambilKamera"
+        android:name="com.pm.appalfa.signin_up.signup.AmbilKamera"
+        android:label="activity_ambil_kamera"
+        tools:layout="@layout/activity_ambil_kamera" />
+    <activity
+        android:id="@+id/mainActivityAlumni"
+        android:name="com.pm.appalfa.alumni.MainActivityAlumni"
+        android:label="activity_main_alumni"
+        tools:layout="@layout/activity_main_alumni" />
+    <activity
+        android:id="@+id/mainActivityAdmin"
+        android:name="com.pm.appalfa.admin.MainActivityAdmin"
+        android:label="activity_main_admin"
+        tools:layout="@layout/activity_main_admin" />
+    <activity
+        android:id="@+id/tracerStudyActivty"
+        android:name="com.pm.appalfa.alumni.tracerstudy.TracerStudyActivty"
+        android:label="activity_tracer_study_activty"
+        tools:layout="@layout/activity_tracer_study_activty" />
+</navigation>

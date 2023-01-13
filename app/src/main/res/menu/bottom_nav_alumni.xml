@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/beranda"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"/>
+    <item android:title="@string/pencarian"
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"/>
+    <item android:title="@string/acara"
+        android:id="@+id/event"
+        android:icon="@drawable/ic_event"/>
+    <item android:title="@string/notifikasi"
+        android:id="@+id/notification"
+        android:icon="@drawable/ic_notification"/>
+    <item android:title="@string/akun_saya"
+        android:id="@+id/account"
+        android:icon="@drawable/ic_acc"/>
+</menu>

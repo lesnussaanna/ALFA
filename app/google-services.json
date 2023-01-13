@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "719665482172",
+    "firebase_url": "https://appalfa-c4b76-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "appalfa-c4b76",
+    "storage_bucket": "appalfa-c4b76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719665482172:android:90cfc4bfed9cb696bf43b9",
+        "android_client_info": {
+          "package_name": "com.pm.appalfa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719665482172-ab7vsvp8drucu8j2iharor09o3b3t0gt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pm.appalfa",
+            "certificate_hash": "4b52a448f65b382eea432ceac675fe5adc116fbb"
+          }
+        },
+        {
+          "client_id": "719665482172-s8u494cem0qfpao152dil7kb3prqkgt2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf8lCzQ8n0Ssg_RVS1-yChW62HNdUD8Hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719665482172-s8u494cem0qfpao152dil7kb3prqkgt2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
