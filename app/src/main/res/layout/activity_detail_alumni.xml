@@ -89,19 +89,57 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/prodi"/>
-    <TextView
-        android:id="@+id/pekerjaan"
+    <LinearLayout
+        android:id="@+id/ll_teman"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/job_akun"
         android:gravity="center"
-        android:fontFamily="@font/poppins"
-        android:textColor="@color/green_01"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/nim"
         android:background="@color/background_01"
-        android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/nim"/>
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/teman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/teman"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/green_01"
+            android:background="@color/background_01"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/jumlahteman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jumlah_teman"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/green_01"
+            android:background="@color/background_01"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_post"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/green_01"
+            android:background="@color/background_01"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/jumlahpost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jumlah_post"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/green_01"
+            android:background="@color/background_01"
+            android:textSize="17sp"/>
+    </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_follow"
@@ -112,7 +150,10 @@
         android:textColorHint="@color/white"
         android:hint="@string/follow"
         android:textSize="12sp"
-        app:layout_constraintTop_toBottomOf="@id/pekerjaan"
+        android:drawablePadding="10dp"
+        android:paddingHorizontal="15dp"
+        android:drawableStart="@drawable/ic_follow"
+        app:layout_constraintTop_toBottomOf="@id/ll_teman"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/btn_chat"/>
 
@@ -124,9 +165,10 @@
         android:fontFamily="@font/poppins"
         android:layout_marginStart="10dp"
         android:textColorHint="@color/white"
-        android:hint="@string/chat"
+        android:hint="@string/kirim_pesan"
+        android:paddingHorizontal="20dp"
         android:textSize="12sp"
-        app:layout_constraintTop_toBottomOf="@id/pekerjaan"
+        app:layout_constraintTop_toBottomOf="@id/ll_teman"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/btn_follow" />
 

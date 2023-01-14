@@ -101,21 +101,6 @@
                 android:layout_margin="8dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical|center_horizontal"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/iv_icon_daily_report"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/img_alumni" />
-
                     <TextView
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
@@ -123,8 +108,9 @@
                         android:gravity="center"
                         android:text="@string/alumni"
                         android:textColor="@color/black"
-                        android:textSize="18sp"/>
-                </LinearLayout>
+                        android:textSize="18sp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        app:drawableTopCompat="@drawable/img_alumni" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -139,30 +125,16 @@
                 android:layout_margin="8dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical|center_horizontal"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/iv_icon_announcement"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/img_event" />
-
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_bold"
                         android:gravity="center"
-                        android:text="@string/event"
+                        android:text="@string/acara"
                         android:textColor="@color/black"
-                        android:textSize="18sp" />
-                </LinearLayout>
+                        android:textSize="18sp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        app:drawableTopCompat="@drawable/img_event" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -177,30 +149,16 @@
                 android:layout_margin="8dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical|center_horizontal"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/iv_icon_attendance"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/img_admin" />
-
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_bold"
                         android:gravity="center"
-                        android:text="Admin"
+                        android:text="@string/admin"
                         android:textColor="@color/black"
-                        android:textSize="18sp" />
-                </LinearLayout>
+                        android:textSize="18sp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        app:drawableTopCompat="@drawable/img_admin" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -215,30 +173,16 @@
                 android:layout_margin="8dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical|center_horizontal"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/iv_icon_assignment"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/img_pengajuan" />
-
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_bold"
                         android:gravity="center"
-                        android:text="Pengajuan Alumni"
+                        android:text="@string/pengajuan_alumni"
                         android:textColor="@color/black"
-                        android:textSize="18sp" />
-                </LinearLayout>
+                        android:textSize="18sp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        app:drawableTopCompat="@drawable/img_pengajuan" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -253,32 +197,18 @@
                 android:layout_margin="8dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical|center_horizontal"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/gform"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/img_hasilts" />
-
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_bold"
                         android:gravity="center"
-                        android:text="Hasil Tracer Study"
+                        android:text="@string/acara"
                         android:textColor="@color/black"
-                        android:textSize="18sp" />
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
+                        android:textSize="18sp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        app:drawableTopCompat="@drawable/img_tracers"/>
 
+            </androidx.cardview.widget.CardView>
         </GridLayout>
 
     </ScrollView>
