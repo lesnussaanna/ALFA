@@ -1,12 +1,12 @@
-package com.pm.appalfa.alumni
+package com.pm.appalfa.alumni.carialumni
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.pm.appalfa.R
 
-class EditProfil : AppCompatActivity() {
+class DetailAlumni : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_edit_profil)
+        setContentView(R.layout.activity_detail_alumni)
     }
 }

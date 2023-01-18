@@ -14,10 +14,22 @@
         android:theme="@style/Theme.AppAlfa"
         tools:targetApi="31">
         <activity
-            android:name=".EditProfil"
+            android:name=".admin.NotificationActivity"
             android:exported="false" />
         <activity
-            android:name=".alumni.DetailAlumni"
+            android:name=".admin.EventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.pengajuan.CariAlumniActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.pengajuan.PengajuanAlumniActivity"
+            android:exported="false" />
+        <activity
+            android:name=".alumni.fitur.EditProfil"
+            android:exported="false" />
+        <activity
+            android:name=".alumni.carialumni.DetailAlumni"
             android:exported="false" />
         <activity
             android:name=".alumni.tracerstudy.TracerStudyActivty"

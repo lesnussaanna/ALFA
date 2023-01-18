@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_01"
-    tools:context=".alumni.fitur.NotificationAlumni">
+    android:orientation="vertical"
+    android:id="@+id/linearLayout"
+    tools:context=".admin.pengajuan.PengajuanAlumniActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -14,22 +14,30 @@
         android:layout_height="90dp"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:background="#266041">
 
-            <TextView
-                android:id="@+id/alfa"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/notifikasi"
-                android:layout_gravity="center"
-                android:textColor="@color/white"
-                android:textSize="20sp"
-                android:fontFamily="@font/poppins_bold"/>
-
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="start"
+            android:contentDescription="@string/ic_back"
+            android:layout_marginStart="30dp"
+            app:srcCompat="@drawable/ic_back" />
+        <TextView
+            android:id="@+id/alfa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pengaajuan_alumni"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins_bold"/>
     </androidx.appcompat.widget.Toolbar>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -37,14 +45,13 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="20dp">
+            android:layout_height="wrap_content">
 
             <ImageView
-                android:contentDescription="@string/bingkai"
                 android:id="@+id/this_week"
                 android:layout_width="match_parent"
-                android:layout_height="320dp"
+                android:layout_height="300dp"
+                android:contentDescription="@string/bingkai"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="20dp"
@@ -61,7 +68,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="20dp"
                 android:fontFamily="@font/poppins"
-                android:text="@string/hari_ini"
+                android:text="@string/baru_baru_ini"
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -72,19 +79,19 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerView"
                 android:layout_width="0dp"
-                android:layout_height="250dp"
-                android:layout_marginTop="12dp"
-                android:layout_marginBottom="12dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 app:layout_constraintBottom_toBottomOf="@+id/this_week"
                 app:layout_constraintEnd_toEndOf="@+id/textView"
                 app:layout_constraintStart_toStartOf="@+id/textView"
                 app:layout_constraintTop_toBottomOf="@+id/textView"
-                tools:listitem="@layout/item_notification"/>
+                tools:listitem="@layout/item_pengajuan_alumni" />
 
             <ImageView
                 android:id="@+id/this_month"
                 android:layout_width="match_parent"
-                android:layout_height="320dp"
+                android:layout_height="300dp"
                 android:contentDescription="@string/bingkai"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
@@ -102,7 +109,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="20dp"
                 android:fontFamily="@font/poppins"
-                android:text="@string/kemarin"
+                android:text="@string/minggu_ini"
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -113,7 +120,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerView2"
                 android:layout_width="0dp"
-                android:layout_height="250dp"
+                android:layout_height="220dp"
                 android:layout_marginTop="12dp"
                 android:layout_marginBottom="12dp"
                 app:layout_constraintBottom_toBottomOf="@+id/this_month"
@@ -121,8 +128,54 @@
                 app:layout_constraintStart_toStartOf="@+id/textView2"
                 app:layout_constraintTop_toBottomOf="@+id/textView2"
                 app:layout_constraintVertical_bias="0.0"
-                tools:listitem="@layout/item_notification" />
+                tools:listitem="@layout/item_pengajuan_alumni" />
+
+            <ImageView
+                android:id="@+id/earlier"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/bingkai"
+                android:layout_marginEnd="20dp"
+                android:layout_marginVertical="20dp"
+                android:background="@drawable/editrounded"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/this_month" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/poppins"
+                android:text="@string/bulan_ini"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/earlier"
+                app:layout_constraintStart_toStartOf="@+id/earlier"
+                app:layout_constraintTop_toTopOf="@+id/earlier" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView3"
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                app:layout_constraintBottom_toBottomOf="@+id/earlier"
+                app:layout_constraintEnd_toEndOf="@+id/textView3"
+                app:layout_constraintStart_toStartOf="@+id/textView3"
+                app:layout_constraintTop_toBottomOf="@+id/textView3"
+                app:layout_constraintVertical_bias="0.0"
+                tools:listitem="@layout/item_pengajuan_alumni" />
+
+
         </androidx.constraintlayout.widget.ConstraintLayout>
+
 
     </ScrollView>
 

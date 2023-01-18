@@ -164,6 +164,30 @@
     <string name="password_lama">Password Lama</string>
     <string name="password_baru">Password Baru</string>
     <string name="konfirmasi_password_baru">Konfirmasi Password Baru</string>
+    <string name="pengaajuan_alumni">Pengaajuan Alumni</string>
+    <string name="minggu_ini">Minggu Ini</string>
+    <string name="bulan_ini">Bulan Ini</string>
+    <string name="baru_baru_ini">Baru-Baru Ini</string>
+    <string name="bingkai">bingkai</string>
+
+
+
+    <!-- Event -->
+    <string name="nama_event1">Guest Lecture “Machine Learning”</string>
+    <string name="nama_event2">Webinar “Research Trend in Big Data”</string>
+    <string name="nama_event3">Webinar “Training of Trainer Related to Computer Graphics and Vision</string>
+    <string name="nama_event4">Workshop of Writing Dissertation Proposal</string>
+    <string name="nama_event5">Workshop “Preparation of PKM Students”</string>
+    <string name="nama_event6">Talkshow “Building Digital Ecosystem”</string>
+
+    <string name="desc1">Let’s find out what trends in machine learning, learn, get the inspiration, and make an innovation!</string>
+    <string name="desc2">Let’s find out what trends in big data, learn, get the inspiration, and make an innovation!</string>
+    <string name="desc3">Let’s find out what trends in computer graphics, learn, get the inspiration, and make an innovation!</string>
+    <string name="desc4">Let’s find out what trends in writing dissertation proposal, learn, get the inspiration, and make an innovation!</string>
+    <string name="desc5">Let’s find out what trends in Preparation, learn, get the inspiration, and make an innovation!</string>
+    <string name="desc6">Let’s find out what trends in building digital ecosystem, learn, get the inspiration, and make an innovation!</string>
+    <string name="kemarin">Kemarin</string>
+    <string name="hari_ini">Hari Ini</string>
 
 
 </resources>

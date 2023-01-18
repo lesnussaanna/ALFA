@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_01"
-    tools:context=".alumni.fitur.NotificationAlumni">
+    tools:context=".admin.NotificationActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -19,17 +19,26 @@
         app:layout_constraintTop_toTopOf="parent"
         android:background="#266041">
 
-            <TextView
-                android:id="@+id/alfa"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/notifikasi"
-                android:layout_gravity="center"
-                android:textColor="@color/white"
-                android:textSize="20sp"
-                android:fontFamily="@font/poppins_bold"/>
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="start"
+            android:contentDescription="@string/ic_back"
+            android:layout_marginStart="30dp"
+            app:srcCompat="@drawable/ic_back" />
 
+        <TextView
+            android:id="@+id/alfa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notifikasi"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins_bold"/>
     </androidx.appcompat.widget.Toolbar>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -37,14 +46,13 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="20dp">
+            android:layout_height="wrap_content">
 
             <ImageView
-                android:contentDescription="@string/bingkai"
                 android:id="@+id/this_week"
                 android:layout_width="match_parent"
                 android:layout_height="320dp"
+                android:contentDescription="@string/bingkai"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="20dp"
@@ -79,14 +87,14 @@
                 app:layout_constraintEnd_toEndOf="@+id/textView"
                 app:layout_constraintStart_toStartOf="@+id/textView"
                 app:layout_constraintTop_toBottomOf="@+id/textView"
-                tools:listitem="@layout/item_notification"/>
+                tools:listitem="@layout/item_notification" />
 
             <ImageView
                 android:id="@+id/this_month"
                 android:layout_width="match_parent"
                 android:layout_height="320dp"
-                android:contentDescription="@string/bingkai"
                 android:layout_marginStart="20dp"
+                android:contentDescription="@string/bingkai"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="20dp"
                 android:background="@drawable/editrounded"
@@ -125,5 +133,4 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ScrollView>
-
 </LinearLayout>

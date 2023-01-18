@@ -4,6 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.pm.appalfa.R
+import com.pm.appalfa.alumni.carialumni.SearchAlumni
+import com.pm.appalfa.alumni.event.EventAlumni
+import com.pm.appalfa.alumni.fitur.AccountAlumni
+import com.pm.appalfa.alumni.fitur.NotificationAlumni
 import com.pm.appalfa.databinding.ActivityMainAlumniBinding
 
 class MainActivityAlumni : AppCompatActivity() {

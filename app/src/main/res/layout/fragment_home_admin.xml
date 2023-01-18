@@ -28,7 +28,7 @@
             app:srcCompat="@drawable/logo_alfa" />
 
         <ImageView
-            android:id="@+id/btnchat"
+            android:id="@+id/btnnotif"
             android:contentDescription="@string/ic_notif"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -92,8 +92,8 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnAlumni"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
                 android:layout_row="0"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
@@ -117,7 +117,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnEvent"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:layout_row="0"
                 android:layout_rowWeight="1"
                 android:layout_column="1"
@@ -126,16 +126,17 @@
                 android:layout_margin="8dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
-                    <TextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/poppins_bold"
-                        android:gravity="center"
-                        android:text="@string/acara"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:layout_gravity="center_vertical|center_horizontal"
-                        app:drawableTopCompat="@drawable/img_event" />
+
+                <TextView
+                    android:layout_width="136dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"
+                    android:text="@string/acara"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    app:drawableTopCompat="@drawable/img_event" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -165,7 +166,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnPengajuanAlumni"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:layout_row="1"
                 android:layout_rowWeight="1"
                 android:layout_column="1"
@@ -189,7 +190,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnGform"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:layout_row="2"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
